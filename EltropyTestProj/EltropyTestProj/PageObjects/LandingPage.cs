@@ -7,6 +7,7 @@ using Tests.SeleniumHelpers;
 using ApiHelper;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 
 namespace Tests.PageObjects
 {
@@ -53,6 +54,17 @@ namespace Tests.PageObjects
 
         public void VerifyUSersFriend(string baseUrl, string user)
         {
+            ApiMethods apiMethods = new ApiMethods();
+            List<string> Friends = apiMethods.GetFriends(user, 100).Result;
+            IWebElement searchbox = _driver.FindElement(By.XPath("//input[@aria-label = 'Search query']"));
+            searchbox.Clear();
+            System.Random rnd = new System.Random();
+            int r = rnd.Next(Friends.Count);
+            searchbox.SendKeys(Friends[r]);
+            _driver.FindElement(By.PartialLinkText(Friends[r])).Click();
+
+
+
         }
 
             public void ScreenShotRemoteBrowser(string name)
@@ -61,8 +73,9 @@ namespace Tests.PageObjects
             {
                 
                 Screenshot  image = ((ITakesScreenshot)_driver).GetScreenshot();
+                var ResourcePath = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedFiles");
                 //Save the screenshot
-                image.SaveAsFile("C:/temp/" + name + "_landingPage.png", ScreenshotImageFormat.Png);
+                image.SaveAsFile(ResourcePath + name + "_landingPage.png", ScreenshotImageFormat.Png);
             }
             catch (System.Exception e)
             {

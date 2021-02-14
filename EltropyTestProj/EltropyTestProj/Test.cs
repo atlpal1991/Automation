@@ -46,16 +46,23 @@ namespace Test
         [Test]
         public void TestImplement()
         {
-
+            //read 100 twitter user from excel sheet
             List<string> Users= SeleniumHelper.ExcelReader();
-            // Arrange
-            // Act
+            
+
+
             foreach (string i in Users)
             {
                 _baseUrl = "https://twitter.com/" + i;
+
+                //Code to capture homepage of user
                 new LandingPage(_driver).UserMainCpature(_baseUrl, i);
 
+                //code to verify top 10 tweets of user being fetched via API
                 new LandingPage(_driver).VerifyTweetList(_baseUrl, i);
+
+                //Code to verify users friend list operations
+                new LandingPage(_driver).VerifyUSersFriend(_baseUrl, i);
 
             }
 

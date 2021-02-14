@@ -7,6 +7,7 @@ using OpenQA.Selenium.Support.UI;
 using System.Linq;
 using System.Text;
 using Excel = Microsoft.Office.Interop.Excel;
+using System.IO;
 
 namespace Structura.GuiTests.SeleniumHelpers
 {
@@ -82,7 +83,8 @@ namespace Structura.GuiTests.SeleniumHelpers
             List<string> userhandles = new List<string>();
 
             xlApp = new Excel.Application();
-            xlWorkBook = xlApp.Workbooks.Open(@"<strong>C:\splessons.xlsx</strong>", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+            var spreadsheetLocation = Path.Combine(Directory.GetCurrentDirectory(), "Most_followed_Twitter_acounts_2019.xlsx");
+            xlWorkBook = xlApp.Workbooks.Open(spreadsheetLocation, 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
             xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
 
             range = xlWorkSheet.UsedRange;
