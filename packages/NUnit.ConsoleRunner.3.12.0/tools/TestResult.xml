@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-03-14 18:24:03Z" end-time="2021-03-14 18:24:11Z" duration="7.927396">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\ParallelTestsPOM.exe]]></command-line>
+  <test-suite type="Assembly" id="1-1004" name="ParallelTestsPOM.exe" fullname="C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\ParallelTestsPOM.exe" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-03-14T18:24:04.4249188Z" end-time="2021-03-14T18:24:11.1965656Z" duration="6.771206" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19041.0" platform="Win32NT" cwd="C:\Users\Dell\Documents\GitHub\Automation\packages\NUnit.ConsoleRunner.3.12.0\tools" machine-name="DESKTOP-3KQ380A" user="Dell" user-domain="DESKTOP-3KQ380A" culture="en-IN" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Dell\Documents\GitHub\Automation\packages\NUnit.ConsoleRunner.3.12.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Self" />
+      <property name="LevelOfParallelism" value="2" />
+      <property name="_PID" value="14100" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1005" name="ParallelTestsPOM" fullname="ParallelTestsPOM" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-03-14T18:24:04.4418759Z" end-time="2021-03-14T18:24:11.1965656Z" duration="6.755164" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="1-1006" name="TestScenarios" fullname="ParallelTestsPOM.TestScenarios" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-03-14T18:24:04.4418759Z" end-time="2021-03-14T18:24:11.1965656Z" duration="6.754816" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="1-1000" name="Scenario1" fullname="ParallelTestsPOM.TestScenarios.Scenario1" classname="ParallelTestsPOM.TestScenarios.Scenario1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-03-14T18:24:04.4418759Z" end-time="2021-03-14T18:24:07.9195631Z" duration="3.477305" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <test-case id="1-1001" name="InvalidLogin" fullname="ParallelTestsPOM.TestScenarios.Scenario1.InvalidLogin" methodname="InvalidLogin" classname="ParallelTestsPOM.TestScenarios.Scenario1" runstate="Runnable" seed="1714680894" result="Passed" start-time="2021-03-14T18:24:07.7174685Z" end-time="2021-03-14T18:24:07.7291516Z" duration="0.012301" asserts="0">
+            <output><![CDATA[1
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1002" name="Scenario2" fullname="ParallelTestsPOM.TestScenarios.Scenario2" classname="ParallelTestsPOM.TestScenarios.Scenario2" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-03-14T18:24:07.9463342Z" end-time="2021-03-14T18:24:11.1965656Z" duration="3.249904" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1003" name="ValidLogin" fullname="ParallelTestsPOM.TestScenarios.Scenario2.ValidLogin" methodname="ValidLogin" classname="ParallelTestsPOM.TestScenarios.Scenario2" runstate="Runnable" seed="382733950" result="Passed" start-time="2021-03-14T18:24:11.1965656Z" end-time="2021-03-14T18:24:11.1965656Z" duration="0.000232" asserts="0">
+            <output><![CDATA[2
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
