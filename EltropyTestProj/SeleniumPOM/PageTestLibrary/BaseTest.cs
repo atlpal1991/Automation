@@ -17,7 +17,7 @@ namespace SeleniumPOM
         [SetUp]
         public void SetupTest()
         {
-            if (_driver == null)
+            if(_driver == null)
             { _driver = Helper.Driver; }
         }
 

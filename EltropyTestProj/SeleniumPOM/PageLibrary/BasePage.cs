@@ -10,7 +10,7 @@ namespace SeleniumPOM
    public  class BasePage
     {
 
-        public static IWebDriver _driver;
+       public static IWebDriver _driver;
        public BasePage()
         {
             if (_driver == null)
