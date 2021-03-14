@@ -1,0 +1,7 @@
+C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\ParallelTestsPOM.exe.config
+C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\ParallelTestsPOM.exe
+C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\ParallelTestsPOM.pdb
+C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.exe
+C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.pdb

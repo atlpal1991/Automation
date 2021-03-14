@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserStack", "BrowserStack.csproj", "{AB8B5436-E001-4DAF-899B-F2391980E693}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelTestsPOM", "ParallelTestsPOM.csproj", "{6E62D826-E5DB-4BD8-B708-D7D041D87DB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB8B5436-E001-4DAF-899B-F2391980E693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB8B5436-E001-4DAF-899B-F2391980E693}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB8B5436-E001-4DAF-899B-F2391980E693}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB8B5436-E001-4DAF-899B-F2391980E693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E62D826-E5DB-4BD8-B708-D7D041D87DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E62D826-E5DB-4BD8-B708-D7D041D87DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E62D826-E5DB-4BD8-B708-D7D041D87DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E62D826-E5DB-4BD8-B708-D7D041D87DB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A3EA0D72-1C23-4FC8-BD68-16B7C9434122}
+		SolutionGuid = {518A6536-33FB-407D-92C8-98AB6D0E8B5D}
 	EndGlobalSection
 EndGlobal
