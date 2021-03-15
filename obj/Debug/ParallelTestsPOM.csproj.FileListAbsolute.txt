@@ -12,6 +12,7 @@ C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\WebDriver.Support.dll
 C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\nunit.framework.xml
 C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\WebDriver.xml
 C:\Users\Dell\Documents\GitHub\Automation\bin\Debug\WebDriver.Support.xml
+C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.csprojAssemblyReference.cache
 C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.csproj.CoreCompileInputs.cache
 C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.csproj.CopyComplete
 C:\Users\Dell\Documents\GitHub\Automation\obj\Debug\ParallelTestsPOM.exe

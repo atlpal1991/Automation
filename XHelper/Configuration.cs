@@ -8,7 +8,7 @@ namespace ParallelTestsPOM.XHelper
 {
    public static class Configuration
     {
-        public static string baseUrl = @"https://www.facebook.com";
+        public static string baseUrl = @"https://www.flipkart.com/";
 
     }
 }
